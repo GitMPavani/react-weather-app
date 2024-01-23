@@ -66,7 +66,7 @@ function Home () {
             <div className='weather-search'>
                 <input type='text' placeholder='Enter City Name' onChange={e => setName(e.target.value)}/>
                 <button>
-                    <img src= "/Images/search.png" onClick={handleClick} alt=''/>               
+                    <img src= "https://cdn.iconscout.com/icon/premium/png-256-thumb/examine-1-213567.png?f=webp" onClick={handleClick} alt=''/>               
                 </button>
             </div>
             <div className='weather-error'>
